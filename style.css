@@ -8,6 +8,9 @@
     width: 100%;
     font-family: "Inter var", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
+a{
+    text-decoration: none;
+}
 .first{
     height: 130vh;
     width: 100%;
@@ -70,7 +73,7 @@ nav a{
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    gap: 50px;
+    gap: 52px;
     padding-top: 100px;
 }
 .start a{
@@ -83,7 +86,7 @@ nav a{
 .start button{
     height: 70px;
     width: 270px;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     color: black;
     border: none;
     border-radius: 10px;
@@ -166,7 +169,7 @@ nav a{
 .block button{
     height: 70px;
     width: 400px;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     margin-top: 50px;
     border: none;
     border-radius: 10px;
@@ -243,7 +246,7 @@ nav a{
 .design button{
     height: 75px;
     width: 430px;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     border: none;
     border-radius: 10px;
     margin-top: 65px;
@@ -257,6 +260,7 @@ nav a{
 .facts{
     display: flex;
     flex-direction: column;
+    align-items: start;
 }
 .facts div p{
     font-size: 21.3px;
@@ -273,11 +277,348 @@ nav a{
     color: white;
 }
 .after{
-    padding-top: 100px;
+    padding-top: 80px;
 }
 .two{
-    padding-top: 70px;
+    padding-top: 50px;
 }
 .smart{
-    height: 50vh;
+    background-color: black;
+    padding-top: 45px;
+    position: relative;
+    display: flex;
+}
+.smart img{
+    position: absolute;
+    top: 3px;
+    left: -175px;
+    height: 74%;
+    width: 65%;
+    opacity: 1;
+}
+.smart svg{
+    position: relative;
+    right: 140px;
+    opacity: 1;
+}
+.smarts{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 230px;
+    left: 830px;
+    right: 170px;
+    align-items: start;
+}
+.smarts h1{
+    line-height: 79px;
+    letter-spacing: -3.7px;
+    color: rgb(255, 255, 255);
+    font-size: 67px;
+}
+.smarts p{
+    color: rgba(255, 255, 255, 0.82);
+    font-size: 21.3px;
+    font-weight: 290;
+    line-height: 34px;
+    padding-top: 35px;
+}
+.free{
+    padding-top: 65px;
+}
+.free button{
+    width: 290px;
+    height: 75.5px;
+}
+.seperate{
+    padding-top: 70px;
+}
+.seperate div svg{
+    left: 1px;
+}
+.grid-ibc{
+    display: grid;
+    background-color: black;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 165px 0px 80px 165px;
+    gap: 30px;
+}
+.ibc h1{
+    line-height: 79px;
+    letter-spacing: -3.7px;
+    color: rgb(255, 255, 255);
+    font-size: 67px;
+}
+.ibc p{
+    color: rgba(255, 255, 255, 0.82);
+    font-size: 21.3px;
+    font-weight: 290;
+    line-height: 34px;
+    padding-top: 35px;
+    padding-right: 120;
+}
+.shining-coin{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.coin:first-child{
+   position: absolute;
+   top: -120;
+   left: 80;
+}
+.coin:nth-child(2){
+    position: absolute;
+    top: 40;
+    left: 180;
+}
+.coin:nth-child(3){
+    position: absolute;
+    top: -40;
+    left: 30;
+}
+.coin img:first-child {
+    transform: rotate(15deg);
+}
+.coin:nth-child(2) img{
+    transform: rotate(30deg);
+}
+.coin:nth-child(3) img{
+    transform: rotate(-15deg);
+}
+.dollars{
+    padding-top: 250px;
+    display: flex;
+    gap: 20px;
+}
+.dollars h1{
+    font-size: 89.7px;
+    color: rgb(255, 255, 255);
+    line-height: 80px;
+    letter-spacing: -5;
+}
+.dollars p{
+    padding-top: 75px;
+    font-size: 13px;
+    color: rgb(255, 255, 255, 0.5);
+}
+.dollars span{
+   font-size: 50px;
+}
+.connect{
+    display: flex;
+    flex-direction: column;
+}
+.connect p{
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.82);
+    font-weight: 320;
+}
+.connect a{
+    font-size: 16px;
+    font-weight: 540;
+    text-decoration: none;
+    padding-bottom: 45px;
+    color: rgba(255, 255, 255);
+}
+.grid-interchain{
+    padding: 30px 165px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: black;
+    gap: 32px;
+}
+.grid-interchain div{
+    background-color: #171717;
+    height: 325px;
+    border-radius: 1.25rem;
+    padding: 35px 35px 32px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+}
+.grid-interchain div h3{
+    font-size: 28.4px;
+    font-weight: 700;
+    line-height: 36px;
+    color: rgba(255, 255, 255);
+    padding-right: 50%;
+}
+.grid-interchain div p{
+    font-size: 16px;
+    color: rgba(255, 255, 255);
+    line-height: 26px;
+    font-weight: 300;
+    padding-top: 35px;
+}
+.grid-interchain div a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 320;
+    color: rgba(255, 255, 255, 0.42);
+    height: 50%;
+    display: flex;
+    align-items: end;
+    /* padding-b: 55px; */
+}
+.grid-interchain div a:hover{
+    color: rgba(255, 255, 255);
+}
+.over{
+    background-image: url('/assets/77c0680.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+.stacking{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 165px 250px;
+    background-color: black;
+    /* background-image: url('/assets/77c0680.png');
+    background-repeat: no-repeat;
+    background-size: 100%; */
+}
+.stacking h1{
+    padding-top: 50px;
+    letter-spacing: -2.68;
+    font-size: 50.5px;
+    /* line-height: 61.4; */
+    font-weight: 720;
+    color: rgba(255, 255, 255);
+}
+.options{
+    display: flex;
+    gap: 22px;
+    padding-top: 30px;
+}
+.options div{
+    height: 65px;
+    width: auto;
+    border-radius: 1.25rem;
+    background-color: #171717;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(255, 255, 255);
+    padding: 0px 20px;
+}
+.options div:hover{
+    border: 2px solid white;
+}
+.options div:first-child {
+    border: 2px solid white;
+}
+/* .information{
+    padding-top: 60px;
+} */
+.options div h3{
+    font-size: 21.3px;
+    font-weight: 690;
+}
+.comments{
+    background-color: #171717;
+    border-radius: 1.25rem;
+    height: 440px;
+    width: 100%;
+    margin-top: 30px;
+    padding: 170px 100px 25px;
+}
+.comments div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.comments div p{
+    font-size: 28.4px;
+    line-height: 36px;
+    font-weight: 555;
+    color: rgba(255, 255, 255);
+}
+.comments div span{
+    font-size: 21.3px;
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 300;
+}
+.comments img{
+    height: 100px;
+    width: 295px;
+}
+.comments a{
+    text-decoration: none;
+    padding-top: 90px;
+    font-size: 21px;
+    font-weight: 320;
+    color: rgba(255, 255, 255, 0.32);
+    line-height: 34px;
+}
+.comments a:hover {
+    color: rgba(255, 255, 255);
+}
+.growing{
+    padding: 0px 230px 0px 280px;
+    background-color: black;
+    position: relative;
+}
+.growing div h1{
+    line-height: 79px;
+    letter-spacing: -3.7px;
+    color: rgb(255, 255, 255);
+    font-size: 67px;
+}
+.growing div p{
+    color: rgba(255, 255, 255, 0.82);
+    font-size: 21.3px;
+    font-weight: 290;
+    line-height: 34px;
+    padding-top: 35px;
+}
+.fast{
+    padding-right: 200px;
+}
+.fast p{
+    padding-right: 230px;
+}
+.chat-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 60px;
+    column-gap: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.chat-grid .chat{
+    display: flex;
+    gap: 30px;
+}
+.chat div{
+    display: flex;
+    flex-direction: column;
+}
+.chat a{
+    color: rgb(255, 255, 255);
+    font-size: 21.3px;
+    font-weight: 686;
+}
+.chat div p{
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.42);
+    font-weight: 320;
+    line-height: 25.6px;
+    padding-top: 5px;
+}
+.chat-grid .chat svg{
+    color: white;
+    width: 45px;
+    height: 45px;
+}
+.corner{
+    height: 15px;
+    width: 15px;
+    background-color: black;
+    border-bottom: 1px solid white;
+    border-left: 1px solid white;
+    position: absolute;
+    bottom: 50px;
+    left: 170px;
 }
